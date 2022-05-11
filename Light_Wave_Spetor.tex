@@ -33,32 +33,32 @@
 \vspace{6mm}
 --------------------------------------------------------------------------------------}
 
-\author{\huge
+\author{\Large
     \vspace{2mm}
     提出者\\
-    \Large
+    \large
     \vspace{2mm}
     T200D507 齋藤瑚汰朗\\\\
-    \huge
+    \Large
     \vspace{2mm}
     共同実験者\\
-    \Large
+    \large
     \vspace{2mm}
     T200D053 小松美咲\\
-    \Large
+    \large
     \vspace{2mm}
     T200D052 小堀祥汰\\
-    \Large
+    \large
     \vspace{2mm}
     T200D050 小林雄馬\\
-    \Large
+    \large
     T200D047 高　健智
     \vspace{5mm}
 }
 
-\date{\LARGE
+\date{\Large
     実験日(一日目) 2022年4月18日\\
-    \LARGE
+    \Large
     \vspace{2mm}
     実験日(二日目) 2022年4月25日
 }
@@ -120,12 +120,27 @@ $t_{BS}=r_{BS}=1/\sqrt{2}$の時、BSの反射と通過がそれぞれ一度だ�
 \end{equation}
 
 従って、合成波を受光したフォトダイオードの出力は、${\left\lvert E_{o}\right(\nu,t)\rvert}^2$に比例した電流が発生し、反射鏡M1を移動させて、$L_{1}$を連続的に変化させる事で、$L_{1}$に対して交流的に変化する成分が光強度に含まれることになる。\\
-ここで、$\tau=(L_{1}-L_{2}/c)$及び、$\delta=\delta{2}-\delta{1}$とすると、光強度は式\ref{equation_E_o_short}のように示せる。
+ここで、$\tau=(L_{1}-L_{2}/c)$及び、$\delta=\delta_{2}-\delta_{1}$とすると、光強度は式\ref{equation_E_o_short}のように示せる。
 
 \begin{equation}
     {\left\lvert E_{o}(\nu,t)\right\rvert}^2=\frac{1}{2}G(\nu)\cos(2\pi\nu\tau+\delta)
     \label{equation_E_o_short}
 \end{equation}
+
+\section{実験}
+
+\subsection{注意事項}
+実験を進める上で、注意すべき点について記述する。
+
+\subsubsection{干渉計}
+
+
+\subsubsection{光源}
+
+\subsubsection{光ファイバーケーブル}
+
+
+\section{実験結果}
 
 
 \section{考察}
@@ -133,10 +148,20 @@ $t_{BS}=r_{BS}=1/\sqrt{2}$の時、BSの反射と通過がそれぞれ一度だ�
 \subsection{マイケルソン干渉計における光出力強度}
 He-Neレーザ光を用いた場合、周期的な信号が観測される。干渉計への入力が一定であることを考えると、エネルギー保存則によってフォトダイオードからの出力は一定でなければならない。しかし、実際にオシロスコープで観測した波形は周期的に変化している。フォトダイオードからの出力が最大でない場合、残りのエネルギーがどのような振る舞いをしたのかを考える。
 
-\subsubsection{弱め合う重ね合わせ}
-式\ref{equation_E_strength}によると、光強度は
+\begin{wrapfigure}{r}[10pt]{0.5\textwidth}
+    \centering
+    \includegraphics[width = 0.5\textwidth]{画像フォルダ/interference_detail.png}
+    \caption{漏れる分の光}
+    \label{interferometer_detail}
+\end{wrapfigure}
+
+\subsubsection{ビームスプリッタの役割}
+式\ref{equation_E_o_short}によると、光強度は$L_{1}$によって周期的に変化することがわかる。そして、$\cos(2\pi\nu\tau+\delta)$が0となるときに、光強度も0となる。しかし、ここで注意するべき点は、\ref{equation_E_o_short}が示す光強度は、フォトダイオードに入り込む光の強度を示している事である。そこで、ビームスプリッタの作用について考える。ビームスプリッタは、光を二分する器具である。それを考慮すると、実際の光の道筋は図\ref{interferometer_detail}に示したような経路を辿っている事になる。この図の細かい点線が反射光、粗い点線が透過光を示している。図\ref{Michelson_interferometer}には、複雑さを回避するため表記を省略している。$L_{1}$を変化させると、M1の反射光とM2の反射光の一部は、BSに当たった際にフォトダイオード側に向かうことなく漏れ出ていく。これが、周期的に光強度が変化する原因である。\cite{wave_and_energy_conservation_law}
 
 \subsection{ミラーの移動速度変動の影響の抑制}
+反射鏡M2を波長オーダーの領域で等速で移動させることは難しい。一定の速度で移動しなくても$V(x)$の変化を正確にする方法を考える。
+
+M1の移動とともに現れるビート信号の周期は、$x$の移動分にのみ依存し、レーザー波長の1/2だけ移動した時間がビート信号の周期に相当する。
 
 \subsection{ASE光源の光スペクトルの類推}
 

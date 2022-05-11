@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p3.9.0-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2021/W32TeX) (preloaded format=uplatex 2022.2.15)  2 MAY 2022 14:25
+This is e-upTeX, Version 3.141592653-p3.9.0-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2021/W32TeX) (preloaded format=uplatex 2022.2.15)  5 MAY 2022 22:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,10 +259,6 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 5.5481pt on input line 70.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 70.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 70.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 70.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 70.
@@ -290,18 +286,20 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 86.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 133.
+(Font)              scaled to size 11.09619pt on input line 132.
  [1]
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 136.
- [2] (./Light_Wave_Spetor.aux) ) 
+(Font)              scaled to size 9.24683pt on input line 135.
+File: 画像フォルダ/interference_detail.png Graphic file (type bmp)
+<画像フォルダ/interference_detail.png>
+ [2] [3] (./Light_Wave_Spetor.aux) ) 
 Here is how much of TeX's memory you used:
- 2727 strings out of 478733
- 41763 string characters out of 5861939
- 358457 words of memory out of 5000000
- 21131 multiletter control sequences out of 15000+600000
- 490586 words of font info for 127 fonts, out of 8000000 for 9000
+ 2730 strings out of 478733
+ 41953 string characters out of 5861939
+ 358465 words of memory out of 5000000
+ 21133 multiletter control sequences out of 15000+600000
+ 490000 words of font info for 124 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 55i,18n,62p,778b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,18n,62p,1331b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Light_Wave_Spetor.dvi (3 pages, 8452 bytes).
+Output written on Light_Wave_Spetor.dvi (4 pages, 11088 bytes).
